@@ -1,19 +1,18 @@
 {
-  "name": "test",
+  "name": "template",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000t\u0000e\u0000s\u0000t\u0000\r\u0000 \u0000",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HarrisonVanNorth/test.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HarrisonVanNorth/test/issues"
-  },
-  "homepage": "https://github.com/HarrisonVanNorth/test#readme"
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "knex": "^0.13.0",
+    "pg": "^7.3.0"
+  }
 }
